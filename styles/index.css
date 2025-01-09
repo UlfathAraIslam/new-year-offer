@@ -142,3 +142,19 @@ margin-bottom: 14px;
 .greeting-description{
     margin-bottom: 43px;
 }
+/* holidays-sale */
+.holidays-sale{
+    padding: 0 140px;
+}
+.holidays-sale-header{
+    padding: 0 266px;
+}
+.holidays-sale-banner{
+    display: flex;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.holidays-sale-banner img{
+    object-fit: contain;
+}
