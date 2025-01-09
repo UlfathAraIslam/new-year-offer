@@ -26,6 +26,8 @@
   /* shared style */
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 section{
     margin-top: 120px;
@@ -39,6 +41,9 @@ body{
   }
   .primary-color{
     color: #FF0000;
+  }
+  .details{
+    margin-bottom: 30px;
   }
   /* header */
   
@@ -157,4 +162,10 @@ margin-bottom: 14px;
 }
 .holidays-sale-banner img{
     object-fit: contain;
+}
+/* gift */
+.gift-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
